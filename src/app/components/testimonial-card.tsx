@@ -5,11 +5,11 @@ interface TestimonialCardProps {
   location: string;
   rating: number;
   review: string;
-  image: string;
+  image?: string;
   link?: string;
 }
 
-export function TestimonialCard({ name, location, rating, review, image, link }: TestimonialCardProps) {
+export function TestimonialCard({ name, location, rating, review, link }: TestimonialCardProps) {
   const content = (
     <>
       {/* Stars */}
@@ -22,19 +22,11 @@ export function TestimonialCard({ name, location, rating, review, image, link }:
       {/* Review Text */}
       <p className="text-gray-700 mb-6 flex-grow italic">"{review}"</p>
 
-      {/* Customer Info */}
+      {/* Customer Info - no photo */}
       <div className="flex items-center justify-between">
-        <div className="flex items-center gap-4">
-          <img
-            src={image}
-            alt={name}
-            className="w-12 h-12 rounded-full object-cover"
-            loading="lazy"
-          />
-          <div>
-            <p className="font-semibold text-gray-900">{name}</p>
-            <p className="text-sm text-gray-600">{location}</p>
-          </div>
+        <div>
+          <p className="font-semibold text-gray-900">{name}</p>
+          <p className="text-sm text-gray-600">{location}</p>
         </div>
         {link && (
           <ExternalLink className="w-4 h-4 text-gray-400" />
