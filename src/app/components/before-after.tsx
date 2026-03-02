@@ -1,3 +1,4 @@
+import image_2bc2e546e3fa7ac717c02d833b99fdec7166aea5 from 'figma:asset/2bc2e546e3fa7ac717c02d833b99fdec7166aea5.png'
 import { useState } from 'react';
 import { motion } from 'motion/react';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
@@ -72,7 +73,7 @@ export function BeforeAfter() {
             >
               {/* After Image (Background) */}
               <img
-                src={comparisons[currentSlide].after}
+                src={image_2bc2e546e3fa7ac717c02d833b99fdec7166aea5}
                 alt="After"
                 className="absolute inset-0 w-full h-full object-cover"
               />
