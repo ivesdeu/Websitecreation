@@ -19,4 +19,26 @@ export default defineConfig({
 
   // File types to support raw imports. Never add .css, .tsx, or .ts files to this.
   assetsInclude: ['**/*.svg', '**/*.csv'],
+
+  // Performance optimizations
+  build: {
+    // Enable code splitting
+    rollupOptions: {
+      output: {
+        manualChunks: {
+          // Vendor chunks for better caching
+          'vendor-react': ['react', 'react-dom'],
+          'vendor-motion': ['motion'],
+          'vendor-ui': ['lucide-react', '@radix-ui/react-slot'],
+        },
+      },
+    },
+    // Minify and compress
+    minify: 'terser',
+    terserOptions: {
+      compress: {
+        drop_console: true, // Remove console.logs in production
+      },
+    },
+  },
 })

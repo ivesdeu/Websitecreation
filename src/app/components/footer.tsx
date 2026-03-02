@@ -77,9 +77,7 @@ export function Footer() {
               </li>
               <li className="flex items-center gap-2 text-gray-400">
                 <Mail className="w-4 h-4" />
-                <a href="mailto:info@whirlywash.com" className="hover:text-white transition-colors">
-                  info@whirlywash.com
-                </a>
+                <a href="mailto:whirlywash.home@gmail.com" className="hover:text-white transition-colors">whirlywash.home@gmail.com</a>
               </li>
               <li className="flex items-start gap-2 text-gray-400">
                 <MapPin className="w-4 h-4 mt-1" />
@@ -92,8 +90,8 @@ export function Footer() {
           <div>
             <h4 className="font-semibold text-lg mb-4">Hours</h4>
             <ul className="space-y-2 text-gray-400">
-              <li>Monday - Friday: 7am - 7pm</li>
-              <li>Saturday: 8am - 5pm</li>
+              <li>Monday - Friday: 7am - 6pm</li>
+              <li>Saturday: 7am - 4pm</li>
               <li>Sunday: Closed</li>
               <li className="pt-2">
                 <button

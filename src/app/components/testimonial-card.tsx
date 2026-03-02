@@ -29,6 +29,7 @@ export function TestimonialCard({ name, location, rating, review, image, link }:
             src={image}
             alt={name}
             className="w-12 h-12 rounded-full object-cover"
+            loading="lazy"
           />
           <div>
             <p className="font-semibold text-gray-900">{name}</p>

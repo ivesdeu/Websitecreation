@@ -45,7 +45,7 @@ export function Testimonials() {
       location: 'Lake County, IL',
       rating: 5,
       review: 'My porch windows were in bad shape and Joey and Blake made them sparkle like new again! Thank you!',
-      image: 'https://images.unsplash.com/photo-1655249493799-9cee4fe983bb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwcm9mZXNzaW9uYWwlMjB3b21hbiUyMHBvcnRyYWl0JTIwaGVhZHNob3R8ZW58MXx8fHwxNzcyMjc5NDQxfDA&ixlib=rb-4.1.0&q=80&w=1080',
+      image: 'https://images.unsplash.com/photo-1770058428154-9eee8a6a1fbb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwcm9mZXNzaW9uYWwlMjB3b21hbiUyMHNtaWxpbmclMjBoZWFkc2hvdHxlbnwxfHx8fDE3NzI0Njc3Nzd8MA&ixlib=rb-4.1.0&q=80&w=1080',
       link: 'https://share.google/GHTLKHPrqlHfkEDcO',
     },
     {
@@ -61,7 +61,7 @@ export function Testimonials() {
       location: 'Lake County, IL',
       rating: 5,
       review: 'Blake and Joey did a thorough job cleaning my outside windows and screens. I recommend Whirly Wash!!!',
-      image: 'https://images.unsplash.com/photo-1758686254593-7c4cd55b2621?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtYXR1cmUlMjB3b21hbiUyMHBvcnRyYWl0JTIwZnJpZW5kbHl8ZW58MXx8fHwxNzcyMzExNjIzfDA&ixlib=rb-4.1.0&q=80&w=1080',
+      image: 'https://images.unsplash.com/photo-1761580525175-cca1baaafbe1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtYXR1cmUlMjB3b21hbiUyMGZyaWVuZGx5JTIwcG9ydHJhaXQlMjBvdXRkb29yfGVufDF8fHx8MTc3MjQ2Nzc3N3ww&ixlib=rb-4.1.0&q=80&w=1080',
       link: 'https://share.google/GHTLKHPrqlHfkEDcO',
     },
     {
@@ -69,7 +69,7 @@ export function Testimonials() {
       location: 'Lake County, IL',
       rating: 5,
       review: 'Blake and Joey did a great job washing the windows. They are efficient, hardworking, and professional. Glad to support a small business, like Whirly Wash.',
-      image: 'https://images.unsplash.com/photo-1629507208649-70919ca33793?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwcm9mZXNzaW9uYWwlMjBtYW4lMjBwb3J0cmFpdCUyMGJ1c2luZXNzfGVufDF8fHx8MTc3MjIzNDE1OXww&ixlib=rb-4.1.0&q=80&w=1080',
+      image: 'https://images.unsplash.com/photo-1723537742563-15c3d351dbf2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxidXNpbmVzcyUyMG1hbiUyMHByb2Zlc3Npb25hbCUyMGhlYWRzaG90fGVufDF8fHx8MTc3MjM3NTMzN3ww&ixlib=rb-4.1.0&q=80&w=1080',
       link: 'https://share.google/GHTLKHPrqlHfkEDcO',
     },
   ];

@@ -9,7 +9,7 @@ import powerWashingImage from 'figma:asset/c8ea79bea63d8da910bb8fdff3767efc9f3ed
 export function Services() {
   const services = [
     {
-      icon: '🪟',
+      icon: '',
       title: 'Exterior Window Cleaning',
       description: 'Sparkling clean windows that let the light shine through. We remove dirt, grime, and hard water stains.',
       image: windowCleaningImage,

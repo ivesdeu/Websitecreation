@@ -32,6 +32,8 @@ export function CTASection() {
               src="https://whirlywash.jobbersites.com"
               className="w-full h-[800px] border-0"
               title="Request Your Free Estimate"
+              allow="fullscreen"
+              loading="lazy"
             />
           </motion.div>
         </div>
